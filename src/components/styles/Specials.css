@@ -1,0 +1,48 @@
+.specials-section-container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 6.25rem 0;
+}
+
+.specials-section-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-menu {
+    padding: 0.938rem 2.5rem;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .specials-section-container {
+        width: 100%;
+        padding: 9.375rem 1.875rem 1.875rem ;
+    }
+
+    .specials-section-title h1 {
+        line-height: 0.8;
+        margin: 1.25rem 0 1.25rem;
+        font-size: 3rem;
+    }
+
+    .btn-menu {
+        margin-bottom: 1.875rem;
+        font-size: smaller;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .specials-section-container {
+        padding-top: 6.25rem;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .specials-section-title {
+        flex-direction: column;
+        align-items:flex-start;
+    }
+
+}
