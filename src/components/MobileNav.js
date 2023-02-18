@@ -22,7 +22,7 @@ const MobileNav = () => {
   return (
     <nav className="mobile-nav">
       {open? openMenu : closeMenu}
-      {open && <NavLinks isMobile={true} closeMobileMenu = {closeMobileMenuOnClick} />}
+      {open ? <NavLinks isMobile={true} closeMobileMenu = {closeMobileMenuOnClick}/>: null}
     </nav>
   )
 }
